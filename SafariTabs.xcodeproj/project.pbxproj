@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F7892D1C57EA9D009EA60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7892C1C57EA9D009EA60B /* AppDelegate.swift */; };
+		C5F7892F1C57EA9D009EA60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7892E1C57EA9D009EA60B /* ViewController.swift */; };
+		C5F789321C57EA9D009EA60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F789301C57EA9D009EA60B /* Main.storyboard */; };
+		C5F789341C57EA9D009EA60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F789331C57EA9D009EA60B /* Assets.xcassets */; };
+		C5F789371C57EA9D009EA60B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F789351C57EA9D009EA60B /* LaunchScreen.storyboard */; };
+		C5F789421C57EA9D009EA60B /* SafariTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F789411C57EA9D009EA60B /* SafariTabsTests.swift */; };
+		C5F7894D1C57EA9D009EA60B /* SafariTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7894C1C57EA9D009EA60B /* SafariTabsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F7893E1C57EA9D009EA60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F789211C57EA9D009EA60B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F789281C57EA9D009EA60B;
+			remoteInfo = SafariTabs;
+		};
+		C5F789491C57EA9D009EA60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F789211C57EA9D009EA60B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F789281C57EA9D009EA60B;
+			remoteInfo = SafariTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5F789291C57EA9D009EA60B /* SafariTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F7892C1C57EA9D009EA60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5F7892E1C57EA9D009EA60B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5F789311C57EA9D009EA60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5F789331C57EA9D009EA60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5F789361C57EA9D009EA60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5F789381C57EA9D009EA60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F7893D1C57EA9D009EA60B /* SafariTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F789411C57EA9D009EA60B /* SafariTabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariTabsTests.swift; sourceTree = "<group>"; };
+		C5F789431C57EA9D009EA60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5F789481C57EA9D009EA60B /* SafariTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F7894C1C57EA9D009EA60B /* SafariTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariTabsUITests.swift; sourceTree = "<group>"; };
+		C5F7894E1C57EA9D009EA60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F789261C57EA9D009EA60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F7893A1C57EA9D009EA60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F789451C57EA9D009EA60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F789201C57EA9D009EA60B = {
+			isa = PBXGroup;
+			children = (
+				C5F7892B1C57EA9D009EA60B /* SafariTabs */,
+				C5F789401C57EA9D009EA60B /* SafariTabsTests */,
+				C5F7894B1C57EA9D009EA60B /* SafariTabsUITests */,
+				C5F7892A1C57EA9D009EA60B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F7892A1C57EA9D009EA60B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F789291C57EA9D009EA60B /* SafariTabs.app */,
+				C5F7893D1C57EA9D009EA60B /* SafariTabsTests.xctest */,
+				C5F789481C57EA9D009EA60B /* SafariTabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F7892B1C57EA9D009EA60B /* SafariTabs */ = {
+			isa = PBXGroup;
+			children = (
+				C5F7892C1C57EA9D009EA60B /* AppDelegate.swift */,
+				C5F7892E1C57EA9D009EA60B /* ViewController.swift */,
+				C5F789301C57EA9D009EA60B /* Main.storyboard */,
+				C5F789331C57EA9D009EA60B /* Assets.xcassets */,
+				C5F789351C57EA9D009EA60B /* LaunchScreen.storyboard */,
+				C5F789381C57EA9D009EA60B /* Info.plist */,
+			);
+			path = SafariTabs;
+			sourceTree = "<group>";
+		};
+		C5F789401C57EA9D009EA60B /* SafariTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F789411C57EA9D009EA60B /* SafariTabsTests.swift */,
+				C5F789431C57EA9D009EA60B /* Info.plist */,
+			);
+			path = SafariTabsTests;
+			sourceTree = "<group>";
+		};
+		C5F7894B1C57EA9D009EA60B /* SafariTabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F7894C1C57EA9D009EA60B /* SafariTabsUITests.swift */,
+				C5F7894E1C57EA9D009EA60B /* Info.plist */,
+			);
+			path = SafariTabsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F789281C57EA9D009EA60B /* SafariTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F789511C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabs" */;
+			buildPhases = (
+				C5F789251C57EA9D009EA60B /* Sources */,
+				C5F789261C57EA9D009EA60B /* Frameworks */,
+				C5F789271C57EA9D009EA60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariTabs;
+			productName = SafariTabs;
+			productReference = C5F789291C57EA9D009EA60B /* SafariTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F7893C1C57EA9D009EA60B /* SafariTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F789541C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabsTests" */;
+			buildPhases = (
+				C5F789391C57EA9D009EA60B /* Sources */,
+				C5F7893A1C57EA9D009EA60B /* Frameworks */,
+				C5F7893B1C57EA9D009EA60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F7893F1C57EA9D009EA60B /* PBXTargetDependency */,
+			);
+			name = SafariTabsTests;
+			productName = SafariTabsTests;
+			productReference = C5F7893D1C57EA9D009EA60B /* SafariTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5F789471C57EA9D009EA60B /* SafariTabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F789571C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabsUITests" */;
+			buildPhases = (
+				C5F789441C57EA9D009EA60B /* Sources */,
+				C5F789451C57EA9D009EA60B /* Frameworks */,
+				C5F789461C57EA9D009EA60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F7894A1C57EA9D009EA60B /* PBXTargetDependency */,
+			);
+			name = SafariTabsUITests;
+			productName = SafariTabsUITests;
+			productReference = C5F789481C57EA9D009EA60B /* SafariTabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F789211C57EA9D009EA60B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "The Church of Jesus Christ of Latter-day Saints";
+				TargetAttributes = {
+					C5F789281C57EA9D009EA60B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5F7893C1C57EA9D009EA60B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5F789281C57EA9D009EA60B;
+					};
+					C5F789471C57EA9D009EA60B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5F789281C57EA9D009EA60B;
+					};
+				};
+			};
+			buildConfigurationList = C5F789241C57EA9D009EA60B /* Build configuration list for PBXProject "SafariTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F789201C57EA9D009EA60B;
+			productRefGroup = C5F7892A1C57EA9D009EA60B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F789281C57EA9D009EA60B /* SafariTabs */,
+				C5F7893C1C57EA9D009EA60B /* SafariTabsTests */,
+				C5F789471C57EA9D009EA60B /* SafariTabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F789271C57EA9D009EA60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F789371C57EA9D009EA60B /* LaunchScreen.storyboard in Resources */,
+				C5F789341C57EA9D009EA60B /* Assets.xcassets in Resources */,
+				C5F789321C57EA9D009EA60B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F7893B1C57EA9D009EA60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F789461C57EA9D009EA60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F789251C57EA9D009EA60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F7892F1C57EA9D009EA60B /* ViewController.swift in Sources */,
+				C5F7892D1C57EA9D009EA60B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F789391C57EA9D009EA60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F789421C57EA9D009EA60B /* SafariTabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F789441C57EA9D009EA60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F7894D1C57EA9D009EA60B /* SafariTabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F7893F1C57EA9D009EA60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F789281C57EA9D009EA60B /* SafariTabs */;
+			targetProxy = C5F7893E1C57EA9D009EA60B /* PBXContainerItemProxy */;
+		};
+		C5F7894A1C57EA9D009EA60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F789281C57EA9D009EA60B /* SafariTabs */;
+			targetProxy = C5F789491C57EA9D009EA60B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5F789301C57EA9D009EA60B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F789311C57EA9D009EA60B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5F789351C57EA9D009EA60B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F789361C57EA9D009EA60B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F7894F1C57EA9D009EA60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5F789501C57EA9D009EA60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F789521C57EA9D009EA60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5F789531C57EA9D009EA60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariTabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5F789551C57EA9D009EA60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafariTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariTabs.app/SafariTabs";
+			};
+			name = Debug;
+		};
+		C5F789561C57EA9D009EA60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafariTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariTabs.app/SafariTabs";
+			};
+			name = Release;
+		};
+		C5F789581C57EA9D009EA60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafariTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafariTabs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5F789591C57EA9D009EA60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafariTabsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafariTabs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F789241C57EA9D009EA60B /* Build configuration list for PBXProject "SafariTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F7894F1C57EA9D009EA60B /* Debug */,
+				C5F789501C57EA9D009EA60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F789511C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F789521C57EA9D009EA60B /* Debug */,
+				C5F789531C57EA9D009EA60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5F789541C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F789551C57EA9D009EA60B /* Debug */,
+				C5F789561C57EA9D009EA60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5F789571C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F789581C57EA9D009EA60B /* Debug */,
+				C5F789591C57EA9D009EA60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F789211C57EA9D009EA60B /* Project object */;
+}
