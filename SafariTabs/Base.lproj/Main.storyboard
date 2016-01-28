@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="v4L-4V-7AK">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SafariTabs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,112 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLN-GZ-wZD" customClass="TRTabView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Q5z-gO-dJQ"/>
+                                </constraints>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ZT-oi-ZMZ" customClass="ContentView" customModule="SafariTabs" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="112" width="600" height="488"/>
+                                <connections>
+                                    <segue destination="pRg-A5-GXm" kind="embed" id="PM6-bh-S2l"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qLN-GZ-wZD" secondAttribute="trailing" id="3F2-Qy-LS0"/>
+                            <constraint firstItem="2ZT-oi-ZMZ" firstAttribute="leading" secondItem="qLN-GZ-wZD" secondAttribute="leading" id="HD9-Ds-UZL"/>
+                            <constraint firstItem="qLN-GZ-wZD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jc9-IE-lTW"/>
+                            <constraint firstItem="2ZT-oi-ZMZ" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="WkU-ik-QcL"/>
+                            <constraint firstItem="qLN-GZ-wZD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ahZ-WX-bx7"/>
+                            <constraint firstItem="2ZT-oi-ZMZ" firstAttribute="trailing" secondItem="qLN-GZ-wZD" secondAttribute="trailing" id="bsr-xb-Kzx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qLN-GZ-wZD" secondAttribute="bottom" constant="494" id="jwR-I6-eHr"/>
+                            <constraint firstItem="2ZT-oi-ZMZ" firstAttribute="top" secondItem="qLN-GZ-wZD" secondAttribute="bottom" constant="3" id="x7v-DZ-ike"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="jwR-I6-eHr"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="V8y-pJ-6Ql"/>
+                    <connections>
+                        <outlet property="contentView" destination="2ZT-oi-ZMZ" id="Eis-Ga-L52"/>
+                        <outlet property="tabView" destination="qLN-GZ-wZD" id="hXf-BD-V6h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1929" y="357"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Gq6-d1-DeR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v4L-4V-7AK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nxI-a0-hWb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KqC-Jp-ATz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9w-dL-qf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="357"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="gTX-X7-oU7">
+            <objects>
+                <viewController id="ZxB-mt-gMv" customClass="ContentViewController" customModule="SafariTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qce-eW-srm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="488"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BvJ-y9-X7V">
+                                <rect key="frame" x="251" y="61" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BvJ-y9-X7V" firstAttribute="top" secondItem="Qce-eW-srm" secondAttribute="topMargin" constant="61" id="9kS-3g-ap2"/>
+                            <constraint firstItem="BvJ-y9-X7V" firstAttribute="centerX" secondItem="Qce-eW-srm" secondAttribute="centerX" id="tEr-at-x9F"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nxn-0r-mqF"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="BvJ-y9-X7V" id="qVZ-64-DZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLw-e5-TiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2741" y="1045"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="goY-Ih-oRb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pRg-A5-GXm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bJQ-2R-eA4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZxB-mt-gMv" kind="relationship" relationship="rootViewController" id="iuV-hm-1LA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JqK-fD-1O9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1929" y="1045"/>
         </scene>
     </scenes>
 </document>

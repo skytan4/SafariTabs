@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B66531E18533B6887EB2CB1B6A9E32 /* trtabview_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B14C8E669F828EAAFE72A957C83C12AE /* trtabview_background@2x.png */; };
+		06FD552C8461DE83F55143C58A888B5F /* trtabview_bottom_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9201347646CD6FD9950BDA8837687 /* trtabview_bottom_edge.png */; };
+		07F4C9113B54412D8137AA02F4F5F41D /* trtabview_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E36BCBB18A9FB49EB9518060BF854285 /* trtabview_background.png */; };
+		090DED6AF427100DFE07DE751A1782FF /* UIImage+TRStretching.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CE073E2F27D20746FFD1F3D1CA067 /* UIImage+TRStretching.m */; };
+		0CFB78B6884F4FC1F21EC07A3869DF04 /* TRTabView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F73C25D3DEFA05B66A8B671182E64C /* TRTabView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F42FA866C303AC7E44BB38D3EFC4335 /* overflowButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A959AC6AF2B5518F1FB2A8B8F8F5763 /* overflowButton@2x.png */; };
+		10E0B31B13D348733CAEE818A1A6C58B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		158A9B3689ECCB597C1BEFB12A2B0C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		17A27B1B49E58828F1B1BFF3E2611BE9 /* TRTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73853F5E58D75AAB98521D31D4435486 /* TRTabView.m */; };
+		19C3DCCCDCC5E2399E0B97C098567902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		215CE2D19A11D99E2152BE32B86FAF0F /* UIImage+TRStretching.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C34A7E6D05128E7734D8343151F4B6 /* UIImage+TRStretching.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA65F6D3E881746D46995BD3C50693A /* trtab_foreground_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BF3346FF3253D159040D5610316026 /* trtab_foreground_fill.png */; };
+		3573D793CB277F8D94EDEA366CD3FA62 /* trtab_vertical_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAAA7D6F797975576033BDCB25D6860 /* trtab_vertical_edge.png */; };
+		374AD06659D0DE659E9EE4B503898C76 /* trtab_vertical_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB9EAF0C6A9EB53F03249B0E59549E96 /* trtab_vertical_edge@2x.png */; };
+		4EA1B85C00D0FA9343A6439EA077FF18 /* trtab_bottom_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9402A8811D263DEB329499C659A40C06 /* trtab_bottom_edge@2x.png */; };
+		515B5926589B097121DC54940A4C156F /* trtab_background_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B86A2FFA5107674EB5C2095880000B61 /* trtab_background_fill@2x.png */; };
+		544DBE6C7ECD2B33DC966B8E0456F1C4 /* trtab_top_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2F86988B1AD9CE2CC10427949F3FB6 /* trtab_top_edge.png */; };
+		6AD215678E1BFA4E7E5E03CA4D6DAB63 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7056E016C7835830ED164987EEA2836E /* TRTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A07979746A5FF42C899C1DB0E948405 /* TRTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7171D48FAA0BDD3D4147282908FBFA36 /* TRTab.h in Headers */ = {isa = PBXBuildFile; fileRef = E82CADC726E46D7EDB4D61A3CA326516 /* TRTab.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790B3111BF40B6BB04558DA75F2E11CF /* TRTabViewToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = B2360A4AF5B6CECEAE0C040FBD5AF2C8 /* TRTabViewToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E2F9EDAD56945F0812BC4CA9153EB60 /* deleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 288BBC550D01971772B92F70542DA701 /* deleteButton@2x.png */; };
+		8BF1B8288DC95079AA8440EC0A7B2A79 /* deleteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 13425D29E3148D2FCA866A41B3020B29 /* deleteButton.png */; };
+		9091D42D9A4EED351562EEC824605CD7 /* addButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C8693882C9F0FD1A1A3D31610124E4 /* addButton@2x.png */; };
+		9389E0198548F1F0BBF2AC216E264062 /* overflowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3BB7575350AB3B36BED0082CA09266 /* overflowButton.png */; };
+		968D7B285C1F107D522EECB7FA6AE640 /* trtab_foreground_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 170FBC0643DB7EC1E4877115DF35DBA7 /* trtab_foreground_fill@2x.png */; };
+		B335D3E554494AF979FFE138A5C3318E /* trtabview_bottom_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A990C87F5FF160D9D8A7EB0D65F5860 /* trtabview_bottom_edge@2x.png */; };
+		B6EC4E4302B375438B78ABB23B3FECBC /* addButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7138AA286F2B3503176BB0AE2D11B6AA /* addButton.png */; };
+		C84FCD7A198CDC5BFC38264C75378F10 /* trtab_top_edge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F45C045BB524AAE3213C29C18E5A1A /* trtab_top_edge@2x.png */; };
+		C882B59D2BEAD421D85C1218368A5BDD /* TRTab.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C132BBFD025BD5CF364FC0DB12384 /* TRTab.m */; };
+		CCFDD755ABFC4CD5F65AD6981BB54DDE /* trtab_background_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D32F7450E29019C2B2EB54F4747A2 /* trtab_background_fill.png */; };
+		E1D56B0450D2D295E37E10654709324B /* TRTabView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288B9A9B6F99835628F056200542382 /* TRTabView-dummy.m */; };
+		E4FBDD78B49687E6A6EA1FD75027B8E7 /* trtab_bottom_edge.png in Resources */ = {isa = PBXBuildFile; fileRef = 31743037A2E903E392105DCDBAB7C350 /* trtab_bottom_edge.png */; };
+		E760F57EBB3E0A42594E0D9CF05EC208 /* TRTabViewToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBD1EAD9F04F0EF82308D62C591E00 /* TRTabViewToolbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEFD9DCBAD2301A3FF9753E52986ADB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D6F8659DB6F03DC1BBB744A824C30E1;
+			remoteInfo = TRTabView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0CE073E2F27D20746FFD1F3D1CA067 /* UIImage+TRStretching.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TRStretching.m"; path = "TRTabView/UIImage+TRStretching.m"; sourceTree = "<group>"; };
+		0A959AC6AF2B5518F1FB2A8B8F8F5763 /* overflowButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overflowButton@2x.png"; path = "TRTabView/Resources/overflowButton@2x.png"; sourceTree = "<group>"; };
+		13425D29E3148D2FCA866A41B3020B29 /* deleteButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = deleteButton.png; path = TRTabView/Resources/deleteButton.png; sourceTree = "<group>"; };
+		16C438E98DE7BAF706A42D0F685B795E /* TRTabView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TRTabView.modulemap; sourceTree = "<group>"; };
+		170FBC0643DB7EC1E4877115DF35DBA7 /* trtab_foreground_fill@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtab_foreground_fill@2x.png"; path = "TRTabView/Resources/trtab_foreground_fill@2x.png"; sourceTree = "<group>"; };
+		17BF3346FF3253D159040D5610316026 /* trtab_foreground_fill.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtab_foreground_fill.png; path = TRTabView/Resources/trtab_foreground_fill.png; sourceTree = "<group>"; };
+		1A990C87F5FF160D9D8A7EB0D65F5860 /* trtabview_bottom_edge@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtabview_bottom_edge@2x.png"; path = "TRTabView/Resources/trtabview_bottom_edge@2x.png"; sourceTree = "<group>"; };
+		288BBC550D01971772B92F70542DA701 /* deleteButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "deleteButton@2x.png"; path = "TRTabView/Resources/deleteButton@2x.png"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		31743037A2E903E392105DCDBAB7C350 /* trtab_bottom_edge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtab_bottom_edge.png; path = TRTabView/Resources/trtab_bottom_edge.png; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FCBD1EAD9F04F0EF82308D62C591E00 /* TRTabViewToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRTabViewToolbar.m; path = TRTabView/TRTabViewToolbar.m; sourceTree = "<group>"; };
+		4288B9A9B6F99835628F056200542382 /* TRTabView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRTabView-dummy.m"; sourceTree = "<group>"; };
+		4EE9201347646CD6FD9950BDA8837687 /* trtabview_bottom_edge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtabview_bottom_edge.png; path = TRTabView/Resources/trtabview_bottom_edge.png; sourceTree = "<group>"; };
+		5D71340230E25295A9BE63DAA30BB620 /* TRTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TRTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F45C045BB524AAE3213C29C18E5A1A /* trtab_top_edge@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtab_top_edge@2x.png"; path = "TRTabView/Resources/trtab_top_edge@2x.png"; sourceTree = "<group>"; };
+		6AAAA7D6F797975576033BDCB25D6860 /* trtab_vertical_edge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtab_vertical_edge.png; path = TRTabView/Resources/trtab_vertical_edge.png; sourceTree = "<group>"; };
+		6F2D32F7450E29019C2B2EB54F4747A2 /* trtab_background_fill.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtab_background_fill.png; path = TRTabView/Resources/trtab_background_fill.png; sourceTree = "<group>"; };
+		711743FD0534EAAB23384CA916633FF6 /* TRTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRTabView-prefix.pch"; sourceTree = "<group>"; };
+		7138AA286F2B3503176BB0AE2D11B6AA /* addButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = addButton.png; path = TRTabView/Resources/addButton.png; sourceTree = "<group>"; };
+		73853F5E58D75AAB98521D31D4435486 /* TRTabView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRTabView.m; path = TRTabView/TRTabView.m; sourceTree = "<group>"; };
+		76F73C25D3DEFA05B66A8B671182E64C /* TRTabView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRTabView-umbrella.h"; sourceTree = "<group>"; };
+		77BBBC3E48AC196A9A7FAC9BEFC0AB98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		8511EF2B56BF607D3D045C147DE4DFBB /* TRTabView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRTabView.xcconfig; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8A07979746A5FF42C899C1DB0E948405 /* TRTabView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTabView.h; path = TRTabView/TRTabView.h; sourceTree = "<group>"; };
+		9402A8811D263DEB329499C659A40C06 /* trtab_bottom_edge@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtab_bottom_edge@2x.png"; path = "TRTabView/Resources/trtab_bottom_edge@2x.png"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		A08C132BBFD025BD5CF364FC0DB12384 /* TRTab.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRTab.m; path = TRTabView/TRTab.m; sourceTree = "<group>"; };
+		A7C34A7E6D05128E7734D8343151F4B6 /* UIImage+TRStretching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TRStretching.h"; path = "TRTabView/UIImage+TRStretching.h"; sourceTree = "<group>"; };
+		B14C8E669F828EAAFE72A957C83C12AE /* trtabview_background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtabview_background@2x.png"; path = "TRTabView/Resources/trtabview_background@2x.png"; sourceTree = "<group>"; };
+		B2360A4AF5B6CECEAE0C040FBD5AF2C8 /* TRTabViewToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTabViewToolbar.h; path = TRTabView/TRTabViewToolbar.h; sourceTree = "<group>"; };
+		B86A2FFA5107674EB5C2095880000B61 /* trtab_background_fill@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtab_background_fill@2x.png"; path = "TRTabView/Resources/trtab_background_fill@2x.png"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0C8693882C9F0FD1A1A3D31610124E4 /* addButton@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "addButton@2x.png"; path = "TRTabView/Resources/addButton@2x.png"; sourceTree = "<group>"; };
+		CA2F86988B1AD9CE2CC10427949F3FB6 /* trtab_top_edge.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtab_top_edge.png; path = TRTabView/Resources/trtab_top_edge.png; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CE7F3F5CA2CB60B752423CB510C39A2C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DA3BB7575350AB3B36BED0082CA09266 /* overflowButton.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overflowButton.png; path = TRTabView/Resources/overflowButton.png; sourceTree = "<group>"; };
+		E36BCBB18A9FB49EB9518060BF854285 /* trtabview_background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = trtabview_background.png; path = TRTabView/Resources/trtabview_background.png; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E82CADC726E46D7EDB4D61A3CA326516 /* TRTab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTab.h; path = TRTabView/TRTab.h; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9EAF0C6A9EB53F03249B0E59549E96 /* trtab_vertical_edge@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "trtab_vertical_edge@2x.png"; path = "TRTabView/Resources/trtab_vertical_edge@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3151916DE5D1B095EE886632037010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C3DCCCDCC5E2399E0B97C098567902 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EF30F9E06059D06D65B70E6807B299B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158A9B3689ECCB597C1BEFB12A2B0C74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151F5F273C676AE3816025FFDBFE48BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7138AA286F2B3503176BB0AE2D11B6AA /* addButton.png */,
+				C0C8693882C9F0FD1A1A3D31610124E4 /* addButton@2x.png */,
+				13425D29E3148D2FCA866A41B3020B29 /* deleteButton.png */,
+				288BBC550D01971772B92F70542DA701 /* deleteButton@2x.png */,
+				DA3BB7575350AB3B36BED0082CA09266 /* overflowButton.png */,
+				0A959AC6AF2B5518F1FB2A8B8F8F5763 /* overflowButton@2x.png */,
+				6F2D32F7450E29019C2B2EB54F4747A2 /* trtab_background_fill.png */,
+				B86A2FFA5107674EB5C2095880000B61 /* trtab_background_fill@2x.png */,
+				31743037A2E903E392105DCDBAB7C350 /* trtab_bottom_edge.png */,
+				9402A8811D263DEB329499C659A40C06 /* trtab_bottom_edge@2x.png */,
+				17BF3346FF3253D159040D5610316026 /* trtab_foreground_fill.png */,
+				170FBC0643DB7EC1E4877115DF35DBA7 /* trtab_foreground_fill@2x.png */,
+				CA2F86988B1AD9CE2CC10427949F3FB6 /* trtab_top_edge.png */,
+				64F45C045BB524AAE3213C29C18E5A1A /* trtab_top_edge@2x.png */,
+				6AAAA7D6F797975576033BDCB25D6860 /* trtab_vertical_edge.png */,
+				EB9EAF0C6A9EB53F03249B0E59549E96 /* trtab_vertical_edge@2x.png */,
+				E36BCBB18A9FB49EB9518060BF854285 /* trtabview_background.png */,
+				B14C8E669F828EAAFE72A957C83C12AE /* trtabview_background@2x.png */,
+				4EE9201347646CD6FD9950BDA8837687 /* trtabview_bottom_edge.png */,
+				1A990C87F5FF160D9D8A7EB0D65F5860 /* trtabview_bottom_edge@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19D00BAA8D63FC0671CFFD34497A2512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844807E1E38700E25F48882B0D459701 /* TRTabView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39921106234C4713CB15A166832126CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77BBBC3E48AC196A9A7FAC9BEFC0AB98 /* Info.plist */,
+				16C438E98DE7BAF706A42D0F685B795E /* TRTabView.modulemap */,
+				8511EF2B56BF607D3D045C147DE4DFBB /* TRTabView.xcconfig */,
+				4288B9A9B6F99835628F056200542382 /* TRTabView-dummy.m */,
+				711743FD0534EAAB23384CA916633FF6 /* TRTabView-prefix.pch */,
+				76F73C25D3DEFA05B66A8B671182E64C /* TRTabView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TRTabView";
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				19D00BAA8D63FC0671CFFD34497A2512 /* Pods */,
+				9222BC56E110A623CB5BDC0703C03BD0 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844807E1E38700E25F48882B0D459701 /* TRTabView */ = {
+			isa = PBXGroup;
+			children = (
+				E82CADC726E46D7EDB4D61A3CA326516 /* TRTab.h */,
+				A08C132BBFD025BD5CF364FC0DB12384 /* TRTab.m */,
+				8A07979746A5FF42C899C1DB0E948405 /* TRTabView.h */,
+				73853F5E58D75AAB98521D31D4435486 /* TRTabView.m */,
+				B2360A4AF5B6CECEAE0C040FBD5AF2C8 /* TRTabViewToolbar.h */,
+				3FCBD1EAD9F04F0EF82308D62C591E00 /* TRTabViewToolbar.m */,
+				A7C34A7E6D05128E7734D8343151F4B6 /* UIImage+TRStretching.h */,
+				0A0CE073E2F27D20746FFD1F3D1CA067 /* UIImage+TRStretching.m */,
+				C50793561C593E7A00F54A3A /* TabImages */,
+				39921106234C4713CB15A166832126CC /* Support Files */,
+			);
+			path = TRTabView;
+			sourceTree = "<group>";
+		};
+		9222BC56E110A623CB5BDC0703C03BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7F3F5CA2CB60B752423CB510C39A2C /* Pods.framework */,
+				5D71340230E25295A9BE63DAA30BB620 /* TRTabView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C50793561C593E7A00F54A3A /* TabImages */ = {
+			isa = PBXGroup;
+			children = (
+				151F5F273C676AE3816025FFDBFE48BB /* Resources */,
+			);
+			name = TabImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BBD49A9708B202933D64BBB529355927 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7171D48FAA0BDD3D4147282908FBFA36 /* TRTab.h in Headers */,
+				0CFB78B6884F4FC1F21EC07A3869DF04 /* TRTabView-umbrella.h in Headers */,
+				7056E016C7835830ED164987EEA2836E /* TRTabView.h in Headers */,
+				790B3111BF40B6BB04558DA75F2E11CF /* TRTabViewToolbar.h in Headers */,
+				215CE2D19A11D99E2152BE32B86FAF0F /* UIImage+TRStretching.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D068E5C035640754CB1EF02F8DB646FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD215678E1BFA4E7E5E03CA4D6DAB63 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D6F8659DB6F03DC1BBB744A824C30E1 /* TRTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6735F4877D280DC596FC7573A8698996 /* Build configuration list for PBXNativeTarget "TRTabView" */;
+			buildPhases = (
+				6F55AFBEC25059DA353BC91ABAB1DA84 /* Sources */,
+				5EF30F9E06059D06D65B70E6807B299B /* Frameworks */,
+				BBD49A9708B202933D64BBB529355927 /* Headers */,
+				ED02851125AF27200C5705961807C3B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRTabView;
+			productName = TRTabView;
+			productReference = 5D71340230E25295A9BE63DAA30BB620 /* TRTabView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3AD728E0DFA537BE4F46F3711AE6DF5E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727CF13C2879A2BF4886BE55C9802C6B /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				3D8FAB5E981D2C555AFE47575A5DD010 /* Sources */,
+				5C3151916DE5D1B095EE886632037010 /* Frameworks */,
+				D068E5C035640754CB1EF02F8DB646FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C79676799677A7468557CB57368572 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = CE7F3F5CA2CB60B752423CB510C39A2C /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9222BC56E110A623CB5BDC0703C03BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AD728E0DFA537BE4F46F3711AE6DF5E /* Pods */,
+				0D6F8659DB6F03DC1BBB744A824C30E1 /* TRTabView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED02851125AF27200C5705961807C3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EC4E4302B375438B78ABB23B3FECBC /* addButton.png in Resources */,
+				9091D42D9A4EED351562EEC824605CD7 /* addButton@2x.png in Resources */,
+				8BF1B8288DC95079AA8440EC0A7B2A79 /* deleteButton.png in Resources */,
+				7E2F9EDAD56945F0812BC4CA9153EB60 /* deleteButton@2x.png in Resources */,
+				9389E0198548F1F0BBF2AC216E264062 /* overflowButton.png in Resources */,
+				0F42FA866C303AC7E44BB38D3EFC4335 /* overflowButton@2x.png in Resources */,
+				CCFDD755ABFC4CD5F65AD6981BB54DDE /* trtab_background_fill.png in Resources */,
+				515B5926589B097121DC54940A4C156F /* trtab_background_fill@2x.png in Resources */,
+				E4FBDD78B49687E6A6EA1FD75027B8E7 /* trtab_bottom_edge.png in Resources */,
+				4EA1B85C00D0FA9343A6439EA077FF18 /* trtab_bottom_edge@2x.png in Resources */,
+				2DA65F6D3E881746D46995BD3C50693A /* trtab_foreground_fill.png in Resources */,
+				968D7B285C1F107D522EECB7FA6AE640 /* trtab_foreground_fill@2x.png in Resources */,
+				544DBE6C7ECD2B33DC966B8E0456F1C4 /* trtab_top_edge.png in Resources */,
+				C84FCD7A198CDC5BFC38264C75378F10 /* trtab_top_edge@2x.png in Resources */,
+				3573D793CB277F8D94EDEA366CD3FA62 /* trtab_vertical_edge.png in Resources */,
+				374AD06659D0DE659E9EE4B503898C76 /* trtab_vertical_edge@2x.png in Resources */,
+				07F4C9113B54412D8137AA02F4F5F41D /* trtabview_background.png in Resources */,
+				05B66531E18533B6887EB2CB1B6A9E32 /* trtabview_background@2x.png in Resources */,
+				06FD552C8461DE83F55143C58A888B5F /* trtabview_bottom_edge.png in Resources */,
+				B335D3E554494AF979FFE138A5C3318E /* trtabview_bottom_edge@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8FAB5E981D2C555AFE47575A5DD010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0B31B13D348733CAEE818A1A6C58B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F55AFBEC25059DA353BC91ABAB1DA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C882B59D2BEAD421D85C1218368A5BDD /* TRTab.m in Sources */,
+				E1D56B0450D2D295E37E10654709324B /* TRTabView-dummy.m in Sources */,
+				17A27B1B49E58828F1B1BFF3E2611BE9 /* TRTabView.m in Sources */,
+				E760F57EBB3E0A42594E0D9CF05EC208 /* TRTabViewToolbar.m in Sources */,
+				090DED6AF427100DFE07DE751A1782FF /* UIImage+TRStretching.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5C79676799677A7468557CB57368572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRTabView;
+			target = 0D6F8659DB6F03DC1BBB744A824C30E1 /* TRTabView */;
+			targetProxy = AEFD9DCBAD2301A3FF9753E52986ADB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CBDFAB2A65C36B09038512D36F9119C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76E3291814C21431779A06D83D875B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF76656CD4E465D378C3436F77EB5C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8511EF2B56BF607D3D045C147DE4DFBB /* TRTabView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRTabView/TRTabView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRTabView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRTabView/TRTabView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TRTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F704B34D1A3BF5504C849755FCF6B774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8511EF2B56BF607D3D045C147DE4DFBB /* TRTabView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRTabView/TRTabView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRTabView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRTabView/TRTabView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TRTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6735F4877D280DC596FC7573A8698996 /* Build configuration list for PBXNativeTarget "TRTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF76656CD4E465D378C3436F77EB5C02 /* Debug */,
+				F704B34D1A3BF5504C849755FCF6B774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727CF13C2879A2BF4886BE55C9802C6B /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBDFAB2A65C36B09038512D36F9119C /* Debug */,
+				76E3291814C21431779A06D83D875B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

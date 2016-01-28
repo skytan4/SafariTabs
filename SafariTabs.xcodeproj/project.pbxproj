@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18ABF0D29DD50A6542819E18 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2510FBB3A03B1DA991CA74A3 /* Pods.framework */; };
+		C50793551C592DCE00F54A3A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50793541C592DCE00F54A3A /* ContentViewController.swift */; };
+		C5C419231C58335800B87E6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C419221C58335800B87E6F /* ContentView.swift */; };
 		C5F7892D1C57EA9D009EA60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7892C1C57EA9D009EA60B /* AppDelegate.swift */; };
 		C5F7892F1C57EA9D009EA60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F7892E1C57EA9D009EA60B /* ViewController.swift */; };
 		C5F789321C57EA9D009EA60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F789301C57EA9D009EA60B /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2510FBB3A03B1DA991CA74A3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF65068EFC6BC6939652208 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		91F400D50B48F48A9F147C35 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C50793541C592DCE00F54A3A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		C5C419221C58335800B87E6F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5F789291C57EA9D009EA60B /* SafariTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F7892C1C57EA9D009EA60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5F7892E1C57EA9D009EA60B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18ABF0D29DD50A6542819E18 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40682F0B9BCA9623128AA759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2510FBB3A03B1DA991CA74A3 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC90812141C235CEAD060B71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF65068EFC6BC6939652208 /* Pods.debug.xcconfig */,
+				91F400D50B48F48A9F147C35 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C5F789201C57EA9D009EA60B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				C5F789401C57EA9D009EA60B /* SafariTabsTests */,
 				C5F7894B1C57EA9D009EA60B /* SafariTabsUITests */,
 				C5F7892A1C57EA9D009EA60B /* Products */,
+				AC90812141C235CEAD060B71 /* Pods */,
+				40682F0B9BCA9623128AA759 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +127,8 @@
 			children = (
 				C5F7892C1C57EA9D009EA60B /* AppDelegate.swift */,
 				C5F7892E1C57EA9D009EA60B /* ViewController.swift */,
+				C50793541C592DCE00F54A3A /* ContentViewController.swift */,
+				C5C419221C58335800B87E6F /* ContentView.swift */,
 				C5F789301C57EA9D009EA60B /* Main.storyboard */,
 				C5F789331C57EA9D009EA60B /* Assets.xcassets */,
 				C5F789351C57EA9D009EA60B /* LaunchScreen.storyboard */,
@@ -132,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5F789511C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabs" */;
 			buildPhases = (
+				00DDE2474EF78171438BE013 /* Check Pods Manifest.lock */,
 				C5F789251C57EA9D009EA60B /* Sources */,
 				C5F789261C57EA9D009EA60B /* Frameworks */,
 				C5F789271C57EA9D009EA60B /* Resources */,
+				1E7387870BDDB5BBD19BF0C1 /* Embed Pods Frameworks */,
+				0AE7B2E6167246F32D43A33B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +284,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00DDE2474EF78171438BE013 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0AE7B2E6167246F32D43A33B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E7387870BDDB5BBD19BF0C1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5F789251C57EA9D009EA60B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50793551C592DCE00F54A3A /* ContentViewController.swift in Sources */,
 				C5F7892F1C57EA9D009EA60B /* ViewController.swift in Sources */,
 				C5F7892D1C57EA9D009EA60B /* AppDelegate.swift in Sources */,
+				C5C419231C58335800B87E6F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,9 +480,11 @@
 		};
 		C5F789521C57EA9D009EA60B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF65068EFC6BC6939652208 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SafariTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,9 +493,11 @@
 		};
 		C5F789531C57EA9D009EA60B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F400D50B48F48A9F147C35 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SafariTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.lds.SafariTabs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +571,7 @@
 				C5F789531C57EA9D009EA60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F789541C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +580,7 @@
 				C5F789561C57EA9D009EA60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5F789571C57EA9D009EA60B /* Build configuration list for PBXNativeTarget "SafariTabsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +589,7 @@
 				C5F789591C57EA9D009EA60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module TRTabView {
+  umbrella header "TRTabView-umbrella.h"
+
+  export *
+  module * { export * }
+}
