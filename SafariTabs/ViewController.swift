@@ -44,7 +44,7 @@ class ViewController: UIViewController, TRTabViewDelegate {
     }
 
     func overflowTitleForIndex(index: UInt) -> String! {
-        return "Overflow"
+        return "Tab \(self.pages[Int(index)].title!)"
     }
     
     func tabView(tabView: TRTabView!, didSelectTabAtIndex index: UInt) {
